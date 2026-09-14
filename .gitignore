@@ -1,0 +1,177 @@
+# =============================================================================
+# .gitignore cho Repository Học tập Toán - Tin (Năm 4)
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 0. QUY TẮC BẢO VỆ TÀI LIỆU HỌC TẬP (QUAN TRỌNG)
+# -----------------------------------------------------------------------------
+# Tuyệt đối không chặn file tài liệu, slide, đề cương, sách giáo trình định dạng PDF
+!*.pdf
+!**/*.pdf
+
+# -----------------------------------------------------------------------------
+# 1. PYTHON & KHOA HỌC DỮ LIỆU / THỊ GIÁC MÁY TÍNH
+# -----------------------------------------------------------------------------
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/python*
+bin/pip*
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Đóng gói & thư viện (Packaging & Distribution)
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+
+# Cache & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Trọng số mô hình học sâu (Model weights / Large checkpoints >100MB)
+# (Tránh push nhầm làm nghẽn Git - nếu cần lưu có thể dùng Git LFS hoặc Google Drive)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+checkpoints/
+runs/
+wandb/
+lightning_logs/
+
+# -----------------------------------------------------------------------------
+# 2. LATEX & TÀI LIỆU TOÁN (CHỈ BỎ CÁC FILE RÁC KHI BIÊN DỊCH, GIỮ NGUYÊN FILE PDF)
+# -----------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.idx
+*.ind
+*.ilg
+*.lot
+*.lof
+*.glo
+*.gls
+
+# -----------------------------------------------------------------------------
+# 3. R & RSTUDIO (KHAI PHÁ DỮ LIỆU)
+# -----------------------------------------------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# -----------------------------------------------------------------------------
+# 4. C / C++ & BIÊN DỊCH
+# -----------------------------------------------------------------------------
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.a
+*.lib
+cmake-build-*/
+
+# -----------------------------------------------------------------------------
+# 5. MATLAB & OCTAVE
+# -----------------------------------------------------------------------------
+*.asv
+*.m~
+slprj/
+*.mex*
+
+# -----------------------------------------------------------------------------
+# 6. TỆP TẠM OFFICE (KHI ĐANG MỞ FILE WORD, EXCEL, POWERPOINT)
+# -----------------------------------------------------------------------------
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# -----------------------------------------------------------------------------
+# 7. IDE & TRÌNH SOẠN THẢO CODE
+# -----------------------------------------------------------------------------
+# Visual Studio Code (giữ lại cấu hình workspace nếu cần)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, CLion, IntelliJ, ...)
+.idea/
+*.iml
+*.iws
+
+# Vim / Sublime / Emacs
+*.swp
+*.swo
+*~
+.#*
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------------------------------------------
+# 8. HỆ ĐIỀU HÀNH & FILE RÁC HỆ THỐNG
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.fuse_hidden*
+.Trash-*
+
+# -----------------------------------------------------------------------------
+# 9. BẢO MẬT & FILE CẤU HÌNH CỤC BỘ
+# -----------------------------------------------------------------------------
+.env
+.env.local
+*.secret
+*.key
