@@ -5,3 +5,5 @@
 3. Sau khi hiển thị được ảnh ra, in chiều dài, chiều rộng, chiều cao, in giá trị của một điểm ảnh. 
 
 4. Trên ảnh đã mở được rồi, tô màu ở góc trên bên trái (góc 1/4) thành màu xanh lá cây 
+
+5. Ve hinh tron, hinh vuong, to mau xanh, to mau theo diem anh 
