@@ -1,0 +1,9 @@
+Bài tập phân tích vùng ảnh nhị phân:
+Cho ảnh đầu vào, thực hiện nhị phân hóa.
+Xây dựng cấu trúc cây cho các vùng nhị phân:
+Mỗi nút là 1 vùng đen hoặc trắng
+Nếu 1 vùng đen chứa vùng trắng thì vùng trắng là nút con của vùng đen và ngược lại
+Tự chọn 1 tập ảnh:
+Hiển thị những vùng có kích thước và diện tích trong phạm vi cho trước
+Hiển thị những vùng có 1 con, 2 con, 3 con
+Cho ảnh đầu vào, thực hiện nhị phân hóa và tính biên. Tìm những điểm biên có tỉ lệ giữa khoảng cách trên ảnh và khoảng cách trên biên nhỏ hơn 1 giá trị cho trước.
